@@ -1,0 +1,60 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-gap: 5px;
+    margin: 2rem;
+}
+
+.grid-container-agenda {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+
+    table {
+        max-width: 50rem;
+    }
+}
+
+.index-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.contacts-table-abm {
+    margin-top: 3rem;
+    width: 90%;
+    margin-bottom: 3rem;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: static;
+    margin: 2rem auto 0 auto;
+    width: 100%;
+    padding: 10px;
+}
+body, html {
+    height: auto;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: .4rem;
+    margin-bottom: .6rem;
+}
+
+.form-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+}
